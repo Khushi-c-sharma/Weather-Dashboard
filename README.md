@@ -33,20 +33,6 @@ This project is a weather dashboard application built with React, using the Accu
 * Remove from Favorites: Click the "Remove" button next to any city in the favorites list.
 * View Recent Searches: The sidebar displays a list of your recently searched cities.
 
-## File structure
-├── public
-│   └── index.html          # Main HTML file
-├── src
-│   ├── components
-│   │   ├── Sidebar.jsx     # Sidebar for managing cities
-│   │   ├── WeatherApp.jsx  # Main app component
-│   │   ├── WeatherCard.jsx # Weather card component
-│   └── styles
-│       └── App.css         # CSS styles for the app
-├── .env                    # Environment variables (API key)
-├── package.json            # Project dependencies
-└── README.md               # Readme file
-
 ## API Usage
 This app uses the AccuWeather API to fetch real-time weather data.
 
