@@ -3,7 +3,7 @@ import axios from 'axios';
 import WeatherCard from './WeatherCard';
 import Sidebar from './Sidebar';
 
-const API_KEY = 'xtu4YvGYHk83Rso6joBdOrwzrGlg103Y'; // Replace with your AccuWeather API key
+const API_KEY = 'AccuWeather_API_key'; // Replace with your AccuWeather API key
 
 const WeatherApp = () => {
   const [city, setCity] = useState('');
